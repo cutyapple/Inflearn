@@ -30,6 +30,7 @@ header .spot li:last-child a { padding-right: 0; }
 .visual .control li.on a{ background: #fff;}
 .visual .control li a{ display: block; width: 50px; height: 3px; background: rgba(255,255,255,0.5); border: none;}
 .visual .control a{ color: transparent; }
-
 .visual .con > div{ height: 640px;}
-.visual .con .slide{ background: url(../이미지/bg_main01.jpg) no-repeat center;}
+.visual .con .slide{ background: url(../이미지/bg_main01.jpg) no-repeat center; color: #fff; font-size: 32px; line-height: 46px;}
+.visual .con .slide p{ padding: 19px 0 0; font-size: 20px; line-height: 100%;}
+.visual .con .slide .txt{ position: absolute; left: 50%; top: 175px;}
