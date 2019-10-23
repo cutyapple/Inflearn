@@ -1,4 +1,4 @@
-body{ min-width: 1280px;}
+body{ min-width: 1280px; overflow-x: hidden;}
 
 header{ position: relative; height: 81px; text-align: center;}
 header h1{ position: absolute; left: 50px; top: 0; padding: 14px 0 0} 
@@ -16,10 +16,10 @@ header .spot li a { display: block; height: 81px; padding: 0 10px; line-height: 
 header .spot li:last-child a { padding-right: 0; }
 
 .visual{ position: relative; padding: 0 50px; }
-.slide .prev,
-.slide .next{ display: block; position: absolute; top: 50%; z-index: 10; width: 25px; height: 47px; transform: translateY(-50%); background: url(../이미지/sp_com.png) no-repeat; color: transparent;}
-.slide .prev{ background-position: -128px -60px;}
-.slide .next{ background-position: -158px -60px;}
+.visual .prev,
+.visual .next{ display: block; position: absolute; top: 50%; z-index: 10; width: 25px; height: 47px; transform: translateY(-50%); background: url(../이미지/sp_com.png) no-repeat; color: transparent;}
+.slide .prev{ background-position: -128px -60px; left: 100;}
+.slide .next{ background-position: -158px -60px; right: 100;}
 .slide .control{ position: absolute; left: 0; bottom: 55px; width: 100%; text-align: center; }
 .slide .control > div{ display: inline-block; position: relative; padding: 0 45px 0 0;}
 .slide .control > div > div{ position: absolute; right: 0;}
