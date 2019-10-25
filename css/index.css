@@ -81,10 +81,10 @@ header .spot li:last-child a { padding-right: 0; }
 .notice{ padding: 0 0 100px;}
 .notice > div{ width: 1180px; margin: 0 auto; padding: 55px 0; }
 .notice > div .top > ul{ float: left;}
-.notice > div .top > ul a{ display: block; padding: 100px 0 0; width: 280px; height: 280px; text-align: center; box-sizing: border-box; font-size: 17px; color: #000000; font-weight: bold;}
-.notice > div .top > ul a:hover{  background: rgba(45, 91, 121, 0.5);}
-.notice > div .top > ul a:hover span{ display: block; font-weight: normal; font-size: 14px; padding: 20px 0 0;}
-.notice > div .top > ul a span{ display: none;}
+.notice > div .top > ul a{ text-align: center; display: block; padding: 100px 0 0; width: 280px; height: 280px; box-sizing: border-box; font-size: 17px; color: #000000; font-weight: bold; transition: all 0.5s; }
+.notice > div .top > ul a:hover{ text-align: center; display: block;  background: rgba(45, 91, 121, 0.5);}
+.notice > div .top > ul a:hover span{ top: 0; opacity: 1;}
+.notice > div .top > ul a span{ display: block; text-align: center; position: relative; top: 10px; opacity: 0; transition: all 0.5s; display: block; font-weight: normal; font-size: 14px;}
 .notice > div .top > ul li{ float: left; padding: 0 20px 0 0;}
 .notice > div .top > ul li:nth-child(1) { background: url(../이미지/bg_key_link01.jpg) no-repeat;}
 .notice > div .top > ul li:nth-child(2) { background: url(../이미지/bg_key_link02.jpg) no-repeat; }
