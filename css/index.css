@@ -35,7 +35,7 @@ header .spot li:last-child a { padding-right: 0; }
 .visual .con > div{ height: 640px;}
 .visual .con .slide{ background: url(../이미지/bg_main01.jpg) no-repeat center; color: #fff; font-size: 32px; line-height: 46px;}
 .visual .con .slide p{ padding: 19px 0 0; font-size: 20px; line-height: 100%;}
-.visual .con .slide .txt{ position: absolute; left: 50%; top: 175px;}
+.visual .con .slide .txt{ position: absolute; left: 50%; top: 175px;} 
 
 .product a{ color: #001829; font-size: 15px; }
 .product a:hover{ color: #2d5b79; font-weight: bold;}
